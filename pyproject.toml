@@ -1,0 +1,18 @@
+[project]
+name = "dp-sketch"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.2.0",
+    "transformers>=4.40.0",
+    "sentence-transformers>=3.0.0",
+    "datasets>=2.19.0",
+    "spacy>=3.7.0",
+    "scikit-learn>=1.4.0",
+    "numpy>=1.26.0",
+    "rouge-score>=0.1.2",
+    "nltk>=3.8.0",
+    "tqdm>=4.66.0",
+    "bert-score>=0.3.13",
+    "wandb>=0.17.0",
+]
